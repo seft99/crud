@@ -1,0 +1,54 @@
+.colorBarra{
+  font-size: 15px;
+  text-align: center;
+}
+
+mat-toolbar{
+  background-color:grey;
+  height: 40px;
+  width: auto;
+
+}
+.textoBarra{
+  flex-grow: 1;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-header-cell {
+  color: grey; /* Cambia este color por el que desees */
+}
+
+.colorSearch:hover{
+  color: black;
+}
+
+.colorDelete:hover{
+  color:rgb(255, 44, 44);
+}
+.colorEdit:hover{
+  color:rgb(134, 135, 135);
+}
+
+th{
+  width: 20%;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+/* Cambia el color de fondo del filtro a blanco */
+.mat-form-field-background {
+  background-color: #ffffff;
+
+  outline: none;
+
+}
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
